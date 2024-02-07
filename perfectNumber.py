@@ -9,11 +9,16 @@
 
 from divisors import divisors
 #define the function header called perfectNumber expecting one argument
-
+def perfectNumber(x):
+    myList=[]
     #set a result variable to False by default
-    
+    result = False
     #if the sum of all the divisors of the number is equal to the test number
-
+    for i in myList:
+        Total = Total + i
         #set the result variable to be True
-
+    result = True
     #return the result variable
+    return myList
+
+print (perfectNumber(40))
